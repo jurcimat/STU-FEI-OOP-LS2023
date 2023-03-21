@@ -1,6 +1,6 @@
-package stu.fei.oop.ls2023.task2;
+package stu.fei.oop.ls2023.seminar3.task2;
 
-import stu.fei.oop.ls2023.task1.Student;
+import stu.fei.oop.ls2023.seminar3.task1.Student;
 
 public class Main {
     public static void main(String[] args) {

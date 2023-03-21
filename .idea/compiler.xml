@@ -10,6 +10,7 @@
         <module name="Seminar4" />
         <module name="Seminar1" />
         <module name="Seminar2" />
+        <module name="Seminar5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

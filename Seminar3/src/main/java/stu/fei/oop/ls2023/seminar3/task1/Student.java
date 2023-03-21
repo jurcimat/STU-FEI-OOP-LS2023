@@ -1,4 +1,4 @@
-package stu.fei.oop.ls2023.task1;
+package stu.fei.oop.ls2023.seminar3.task1;
 
 public class Student {
 
