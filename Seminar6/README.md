@@ -1,4 +1,3 @@
-OOP CVICENIA ˇ
 Cviˇcenie 6
 6.1 Enumer´acia
 Vytvorte enumer´aciu, v ktorej bude 4 vami zvolen´ych farieb a ˇcierna. N´asledne
