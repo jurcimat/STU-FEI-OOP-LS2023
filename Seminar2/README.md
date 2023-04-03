@@ -23,7 +23,7 @@ POMÔCKA:
   Využite skúsenosti z predchádzajúcej úlohy a vytvorte program, ktorý zotriedi
   pole čísel:
 - Inicializujte alebo zadajte do poľa celé čísla (môžete si ich aj náhodne vygenerovať, viac info Oracle Docs )
-- Použite ľubovolný algoritmus na zatriedenie poľa od najmenšieho po najv¨ačšie
+- Použite ľubovolný algoritmus na zatriedenie poľa od najmenšieho po najväčšie
   číslo. 
 ## 2.5 Úloha: Definovanie a naplnenie dvojrozmerného poľa
   Postupujte podľa bodov z úlohy 2a, 2b prispôsobte program pre použitie 2-

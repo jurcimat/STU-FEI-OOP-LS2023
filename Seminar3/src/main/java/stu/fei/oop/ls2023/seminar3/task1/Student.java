@@ -66,5 +66,12 @@ public class Student {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        String name = String.format("%-10s %-10s", firstName, surname);
+        String numbers = String.format("age: %-5sID: %s", age, id);
+        return name + numbers;
+    }
 }
 
