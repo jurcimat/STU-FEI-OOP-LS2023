@@ -1,6 +1,6 @@
 # Cvičenie 5
 ## 5.1 Lambda funkcie
-### 5.1.1 Uvod
+### 5.1.1 Úvod
 Vytvorte ArrayList typu String, a naplňte ho minimálne 5 prvkami. Následne
 vypíšte jednotlivé prvky listu pomocou funkcie forEach, do ktorej vstupom je
 lambda (anonymná funkcia).

@@ -10,7 +10,7 @@ public class    Main {
         array.add("Miso");
         array.add("Fero");
         array.add("Dezi");
-        array.forEach(n -> System.out.println(n));
+        array.forEach(System.out::println);
 
     }
 }
