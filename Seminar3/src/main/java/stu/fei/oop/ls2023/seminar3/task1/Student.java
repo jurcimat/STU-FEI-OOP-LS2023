@@ -29,11 +29,10 @@ public class Student {
         this.surname = surname;
     }
 
-    public  Student(int id, String firstName, String surname, int age) {
+    public Student(int id, String firstName, String surname, int age) {
         this(id, firstName, surname);
         this.age = age;
     }
-
 
     public int getAge() {
         return age;
@@ -72,6 +71,27 @@ public class Student {
         String name = String.format("%-10s %-10s", firstName, surname);
         String numbers = String.format("age: %-5sID: %s", age, id);
         return name + numbers;
+    }
+
+    public boolean isGreaterThan(String parameter, Student student) {
+
+        return switch (parameter) {
+            case "id" -> this.id > student.id;
+            case "firstname" -> this.firstName.compareTo(student.firstName) > 0;
+            case "surname" -> this.surname.compareTo(student.surname) > 0;
+            case "age" -> this.age > student.age;
+            default -> false;
+        };
+    }
+
+    public boolean isLessThan(String parameter, Student student) {
+        return switch (parameter) {
+            case "id" -> this.id <= student.id;
+            case "firstname" -> this.firstName.compareTo(student.firstName) <= 0;
+            case "surname" -> this.surname.compareTo(student.surname) <= 0;
+            case "age" -> this.age <= student.age;
+            default -> false;
+        };
     }
 }
 
