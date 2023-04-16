@@ -16,7 +16,9 @@ public class Main {
         MyArray students = new MyArray();
         students.fillArray();
         Arrays.sort(students.array, Comparator.comparing(Student::getFirstName));
-        Arrays.stream(students.array).toList().forEach(System.out::println);
+        Arrays.stream(students.array)
+                .toList()
+                .forEach(System.out::println);
 
 
     }
