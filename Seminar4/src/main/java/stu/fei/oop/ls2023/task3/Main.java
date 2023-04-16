@@ -1,4 +1,4 @@
-package stu.fei.oop.ls2023.task2;
+package stu.fei.oop.ls2023.task3;
 
 import stu.fei.oop.ls2023.task1.Animal;
 import stu.fei.oop.ls2023.task1.Dog;

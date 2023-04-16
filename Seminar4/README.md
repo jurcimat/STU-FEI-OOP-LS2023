@@ -69,9 +69,9 @@ preklady ktoré sa v ňom nachádzajú.
 ### 4.3.6 Iterácia kľúčov
 Vytvorte funkciu ktorá preiteruje cez všetky kľúče objektu dictionary a vypíše
 jednotlivé kľúče do konzoly.
-### 4.3.7 Iterácia hodnˆot s vyhľadávaním substringov
+### 4.3.7 Iterácia hodnôt s vyhľadávaním substringov
 Vytvorte funkciu ktorá preiteruje cez všetky hodnoty objektu dictionary a vypíše
 jednotlivé hodnoty do konzoly ktoré začínajú písmenom y.
 ### 4.3.8 Kópia objektu a porovnanie
 Vytvorte kópiu objektu dictionary pomenujte ju dictionary2. Následne tieto
-dva objekty porovnajte s využitím metódy equals(). Výsledok zdˆovodnite.
+dva objekty porovnajte s využitím metódy equals(). Výsledok zdôvodnite.

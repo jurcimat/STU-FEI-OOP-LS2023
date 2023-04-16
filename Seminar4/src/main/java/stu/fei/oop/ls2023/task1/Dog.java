@@ -6,8 +6,12 @@ public class Dog extends Animal{
         this.numberLegs = 4;
     }
 
+    public Dog(String name) {
+        super(name);
+    }
+
     @Override
-    void sound() {
+    public void sound() {
         System.out.println("Hav-hav");
     }
 }
