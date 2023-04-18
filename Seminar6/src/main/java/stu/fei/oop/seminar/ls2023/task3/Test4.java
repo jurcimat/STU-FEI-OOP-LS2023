@@ -1,4 +1,4 @@
-package stu.fei.oop.seminar.ls2023.task1;
+package stu.fei.oop.seminar.ls2023.task3;
 
 import java.awt.*;
 import javax.swing.*;

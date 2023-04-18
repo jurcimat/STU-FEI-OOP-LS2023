@@ -14,6 +14,7 @@
         <module name="Seminar8" />
         <module name="Seminar5" />
         <module name="Seminar6" />
+        <module name="Seminar9" />
       </profile>
     </annotationProcessing>
   </component>
