@@ -1,11 +1,10 @@
-package stu.fei.oop.ls2023.task1;
+package sk.stuba.fei.oop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Task1Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Task1Application.class, args);
     }

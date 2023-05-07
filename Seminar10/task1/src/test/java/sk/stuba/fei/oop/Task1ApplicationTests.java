@@ -1,4 +1,4 @@
-package stu.fei.oop.ls2023.task1;
+package sk.stuba.fei.oop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
