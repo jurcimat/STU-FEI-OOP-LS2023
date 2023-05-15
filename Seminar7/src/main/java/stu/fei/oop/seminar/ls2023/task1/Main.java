@@ -5,21 +5,16 @@ import java.awt.*;
 
 public class Main {
 
-    int width;
-    int height;
-
-    public Main(int width, int height) {
-        this.width = width;
-        this.height = height;
-    }
-
     public static void main(String[] args) {
         JFrame f = new JFrame();
         f.setSize(500,500);
         f.setLayout(new BorderLayout());
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.add("North", new JLabel("Priklad s polygonmi"));
 
-        f.add("Center", new MyCanvas());
+        MyCanvas myCanvas = new MyCanvas();
+        myCanvas.setBackground(Color.WHITE);
+        f.add("Center", myCanvas);
 
         f.setVisible(true);
 
