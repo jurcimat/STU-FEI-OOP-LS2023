@@ -11,9 +11,13 @@
         <module name="Seminar1" />
         <module name="Seminar2" />
         <module name="Seminar7" />
+        <module name="Seminar8" />
         <module name="Seminar5" />
         <module name="Seminar6" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Seminar9" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
